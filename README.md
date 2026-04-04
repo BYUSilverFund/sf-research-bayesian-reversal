@@ -13,16 +13,6 @@ source .venv/bin/activate
 ```
 
 Set up your environment variables in a `.env` file. You can follow the example found in `.env.example`.
-```
-ASSETS_TABLE=
-EXPOSURES_TABLE=
-COVARIANCES_TABLE=
-CRSP_DAILY_TABLE=
-CRSP_MONTHLY_TABLE=
-CRSP_EVENTS_TABLE=
-BYU_EMAIL=
-PROJECT_ROOT=
-```
 
 Set up pre-commit by running:
 ```bash
@@ -32,6 +22,7 @@ prek install
 Now all of your files will be formatted on commit (you will need to re-commit after the formatting).
 
 ## Experiments
+## BMA Reversal
 1. Baseline BMA Reversal (3-Horizons)
 2. Dynamic Weighting and Recency Decay
 3. Hierarchical Bayesian Update (Prior vs. Likelihood)
@@ -42,3 +33,15 @@ Now all of your files will be formatted on commit (you will need to re-commit af
 8. Signal Acceleration & Risk Scaling
 9. Correlation and Bivariate Regression Test (BMA Rev. vs Enhanced Rev.)
 10. Sample Portfolio Active Risk & Attribution
+
+## Conditional BMA Reversal
+1. Market Cap Conditional BMA
+2. Hierarchical Bayesian Shrinkage BMA
+3. Volatility Adjusted BMA
+4. Adaptive Volume Inhibition BMA
+5. Liquidity Conditional BMA
+6. Double Conditional BMA
+7. Enhanced Double Conditional BMA
+8. Orthogonality Test
+9. Sample Portfolio
+10. Equal-Weight Average HL's
