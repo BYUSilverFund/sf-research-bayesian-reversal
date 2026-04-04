@@ -1917,21 +1917,21 @@ wheels = [
 
 [[package]]
 name = "sf-backtester"
-version = "0.1.1"
+version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "polars" },
     { name = "pyyaml" },
     { name = "sf-quant" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/53/eb/c5af00b80ec56f643be33e61dc44b8f0f82a010fa8fcaee589dd91f81be8/sf_backtester-0.1.1.tar.gz", hash = "sha256:2fd475370e0b1687ea8fb30322ddc3706773300793ebf56cdb15010a7560d486", size = 7581, upload-time = "2026-01-29T04:40:09.353Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ef/4f/ee378d0c892690f0316fcb2621c1f76666a8fb2c49deec43a4d503000d4a/sf_backtester-0.2.0.tar.gz", hash = "sha256:395814c41b28a5c5ce954bfc22f6ab551d10af5325c45635b5188c57c7a5a742", size = 9254, upload-time = "2026-04-02T17:44:49.561Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/29/f8/d19b52a4da0041dc71e7c90801a38a24211973dfbf81d8e5ca1a6b39e47b/sf_backtester-0.1.1-py3-none-any.whl", hash = "sha256:8859ddeb39ed8aefb6166e3d367995cace412cb16f01589573c136952e60205c", size = 8973, upload-time = "2026-01-29T04:40:08.202Z" },
+    { url = "https://files.pythonhosted.org/packages/ed/aa/a8d46ecb9cf3322fac575490fa64deda450177fa6935d6b0bd50865429d2/sf_backtester-0.2.0-py3-none-any.whl", hash = "sha256:bd4ddfe907dc7f8d920f0d63701547c9e38494f3c0dd3905fa52b84eca9e31a6", size = 11555, upload-time = "2026-04-02T17:44:48.566Z" },
 ]
 
 [[package]]
 name = "sf-quant"
-version = "0.1.23"
+version = "0.2.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cvxpy" },
@@ -1947,9 +1947,9 @@ dependencies = [
     { name = "statsmodels" },
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/57/9c/23020641ab681b73637cbc8eaab06efcd7980fe1c8e6b3bf35a1604c1a97/sf_quant-0.1.23.tar.gz", hash = "sha256:72790994f071d0522bd3e6e10b804db059613168917c1db99cedaad8753002be", size = 141947, upload-time = "2026-02-20T03:21:56.486Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c8/80/170f12d519ae1cb49019f87ebb4f36d3722c5ec44df5b35eed511fac6c48/sf_quant-0.2.4.tar.gz", hash = "sha256:5350175b38c0a200574dd87ec33b3fc67bf44b7f2b43ea166bd450c74051d3fa", size = 150153, upload-time = "2026-04-02T15:50:46.382Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/14/3e/2581048ace8ef3f6c3c0222621ddf988aea533c3b5187c0de9aa9910d977/sf_quant-0.1.23-py3-none-any.whl", hash = "sha256:4a7da3aec82d9afb3fde9af86a21d324b1683e88086596b9e2cb775d8e18aa0f", size = 48156, upload-time = "2026-02-20T03:21:55.366Z" },
+    { url = "https://files.pythonhosted.org/packages/fc/ce/f63b4fa49c3e27fd845553825ecaddf0ac448341bc7e30102cb9d4e30ae9/sf_quant-0.2.4-py3-none-any.whl", hash = "sha256:cca7f975f6d6d20b918dfea443bef0c0fa725e6737789f8c657594402d4ab620", size = 61895, upload-time = "2026-04-02T15:50:47.568Z" },
 ]
 
 [[package]]
@@ -2001,8 +2001,8 @@ requires-dist = [
     { name = "scipy", specifier = ">=1.17.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "selenium", specifier = ">=4.39.0" },
-    { name = "sf-backtester", specifier = ">=0.1.1" },
-    { name = "sf-quant", specifier = ">=0.1.23" },
+    { name = "sf-backtester", specifier = ">=0.2.0" },
+    { name = "sf-quant", specifier = ">=0.2.4" },
     { name = "statsmodels", specifier = ">=0.14.6" },
     { name = "vegafusion", specifier = ">=2.0.3" },
     { name = "vl-convert-python", specifier = ">=1.9.0" },
