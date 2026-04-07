@@ -116,10 +116,8 @@ for i in range(len(top_10_df.columns)):
     else:
         header_cell.set_fontsize(10)
 
-plt.title("BMA Fast Decayed Log-Volume Portfolio (Top 10 Holdings)", weight="bold", pad=20)
+plt.title("Enhanced BMA Reversal Portfolio (Top 10 Holdings)", weight="bold", pad=20)
 
 table_path = results_folder / "portfolio.png"
 plt.savefig(table_path, bbox_inches='tight', dpi=300)
 plt.close()
-
-print(f"Portfolio table successfully saved to {table_path}")
