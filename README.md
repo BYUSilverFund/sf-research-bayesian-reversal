@@ -42,6 +42,9 @@ Now all of your files will be formatted on commit (you will need to re-commit af
 5. Liquidity Conditional BMA
 6. Double Conditional BMA
 7. Enhanced Double Conditional BMA
-8. Orthogonality Test
-9. Sample Portfolio
+8. Orthogonality Test (Enhanced BMA Alphas regressed on Vol Conditioned Barra alphas)
+9. Enhanced BMA Sample Portfolio
 10. Equal-Weight Average HL's
+11. Orthogonality Test (Vol Conditioned Barra Alphas regressed on Enhanced BMA Alphas)
+12. Standard Reversal Sample Portfolio
+13. Vol Conditioned Barra Sample Portfolio
