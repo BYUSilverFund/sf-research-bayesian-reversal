@@ -244,6 +244,6 @@ for i in range(len(top_10_df.columns)):
     header_cell.set_fontsize(8 if i == len(top_10_df.columns) - 1 else 10)
 
 plt.title("Volume Conditioned Barra Reversal Portfolio (Total)", weight="bold", pad=20)
-table_path = results_folder / "portfolio.png"
+table_path = results_folder / "vol_cond_barra_rev_sample_port.png"
 plt.savefig(table_path, bbox_inches='tight', dpi=300)
 plt.close()

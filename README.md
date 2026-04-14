@@ -48,3 +48,5 @@ Now all of your files will be formatted on commit (you will need to re-commit af
 11. Orthogonality Test (Vol Conditioned Barra Alphas regressed on Enhanced BMA Alphas)
 12. Standard Reversal Sample Portfolio
 13. Vol Conditioned Barra Sample Portfolio
+14. Negative Alphas Case Study
+15. Positive Alphas Case Study
