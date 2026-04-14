@@ -26,8 +26,7 @@ Grant Rich & Josh Oldroyd
 ## 2. Data Requirements
 
 **Sources**
-- Daily historical pricing and volume data (e.g., CRSP).
-- Market Capitalization and Industry/Sector classifications (e.g., Barra sectors).
+- Barra data
 
 **Rate of Availability**
 - Daily (EOD).
