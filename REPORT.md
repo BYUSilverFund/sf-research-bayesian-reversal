@@ -81,6 +81,7 @@ sf-research-bayesian-reversal/
 ├── uv.lock                           # uv dependency lockfile
 ├── README.md                         # Project setup
 └── REPORT.md                         # Research documentation
+```
 
 ---
 
