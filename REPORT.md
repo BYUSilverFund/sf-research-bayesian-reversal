@@ -53,9 +53,8 @@ The post-2020 market regime is characterized by high interest rate volatility an
 
 **System Design:**
 We built a **Double-Conditioned BMA Model**. 
-- **Step 1 (The Stretch):** The BMA calculates the raw Alpha to identify overbought/oversold candidates.
-- **Step 2 (The Filter):** The signal is conditioned on active liquidity relative to size. It lowers conviction on Large-Cap "Liquidity Holes" and avoids shorting Small-Cap "Liquid Monsters" by recognizing hyper-volume as a momentum breakout rather than noise.
-- **Step 3 (The Industry Sort):** Further filters for industry-specific rate sensitivities, isolating pure "noise" stretches from fundamentally justified macro moves.
+- **Step 1 (The Stretch):** The BMA calculates the raw Alpha to identify overbought/oversold candidates based on price deviation.
+- **Step 2 (The Filter):** The signal is conditioned on active liquidity relative to market capitalization. It lowers conviction on Large-Cap "Liquidity Holes" (gap downs on thin volume) and avoids shorting Small-Cap "Liquid Monsters" by recognizing hyper-volume as a momentum breakout rather than a mean-reverting stretch.
 
 ---
 
