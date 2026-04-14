@@ -1,7 +1,7 @@
 # Research Report
 
-Bayesian Reversal
-Grant Rich & Josh Oldroyd
+**Bayesian Reversal**<br>
+**Grant Rich & Josh Oldroyd**<br>
 
 ---
 
